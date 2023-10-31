@@ -200,7 +200,7 @@ section:nth-child(even) {
     background: #79edfc;
     position: absolute;
     top: 160px;
-    transform: translate(, );
+    transform: translate;
     box-shadow: 0 5px 30px -4px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
   }
