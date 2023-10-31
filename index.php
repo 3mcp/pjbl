@@ -10,7 +10,7 @@
     <div class="box">
         <form action="">
             <fieldset>
-                <legend><b>Formulario do Cliente</b></legend>
+                <legend><b>Cadastro</b></legend>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="name" id="nome" class="inputUser" required>                   
