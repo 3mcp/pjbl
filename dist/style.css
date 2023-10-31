@@ -378,10 +378,78 @@ a {
   color: white;
   box-shadow: 1px 1px 4px #0c1e35;
 }
+<<<<<<< Updated upstream
 .layout .sidebar.collapsed .pro-sidebar-logo > h5 {
   opacity: 0;
 }
 .layout .sidebar.collapsed .footer-box {
+=======
+nav.navShadow {
+  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  height: 100px;
+}
+
+nav.navShadow #word-mark {
+  opacity: 0;
+}
+
+#brand,
+#menu,
+ul {
+  display: flex;
+  align-items: center;
+}
+
+#brand {
+  padding-left: 40px;
+}
+
+#logo {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/*** do lado do icone ***/
+#word-mark {
+  width: 120px;
+  height: 20px;
+  background: #fff;
+  border-radius: 90px;
+  margin-left: 20px;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+/*** Menu Styles ***/
+#menu {
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+
+li {
+  margin-left: 20px;
+}
+li a {
+  width: 80px;
+  height: 20px;
+  background: #fff;
+  display: block;
+  border-radius: 90px;
+}
+
+#menu-toggle {
+  width: 55px;
+  height: 55px;
+  background: #2ea8ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+>>>>>>> Stashed changes
   display: none;
 }
 .layout .sidebar.collapsed .sidebar-collapser {
