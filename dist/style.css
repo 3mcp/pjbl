@@ -19,7 +19,7 @@
 }
 
 .sidebar {
-  color: #7d84ab;
+  color: #aeddbe;
   overflow-x: hidden !important;
   position: relative;
 }
@@ -125,7 +125,7 @@
   align-items: center;
   height: 50px;
   padding: 0 20px;
-  color: #7d84ab;
+  color: #aeddbe;
 }
 .layout .sidebar .menu .menu-item a .menu-icon {
   font-size: 1.2rem;
@@ -308,21 +308,7 @@ a {
   display: flex;
   align-items: center;
 }
-.layout .sidebar .pro-sidebar-logo > div {
-  width: 35px;
-  min-width: 35px;
-  height: 35px;
-  min-height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  color: white;
-  font-size: 24px;
-  font-weight: 700;
-  background-color: #ff8100;
-  margin-right: 10px;
-}
+
 .layout .sidebar .pro-sidebar-logo > h5 {
   overflow: hidden;
   white-space: nowrap;
@@ -331,6 +317,7 @@ a {
   line-height: 30px;
   transition: opacity 0.3s;
   opacity: 1;
+  padding-left: 15px;
 }
 .layout .sidebar .footer-box {
   display: flex;
