@@ -419,19 +419,17 @@ a {
 .Bemvindo{
   justify-content: center;
   color: white;
-  padding-left: 480px;
-  padding-bottom: 0px;
-  padding-top: 240px;
+  text-align: center;
 }
 .content{
   background-color: black;
 }
 .txt2{
   color: white;
-  padding-left: 300px;
+  text-align: center;
 }
 .txt3{
-  padding-left: 335px;
+  text-align: center;
 }
 .rodape{
   justify-content: baseline;
@@ -440,4 +438,10 @@ a {
   position: relative;
   padding-top: 550px;
   padding-bottom: 0px;
+}
+.search-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
