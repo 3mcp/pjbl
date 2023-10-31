@@ -403,3 +403,28 @@ a {
   right: 20px;
   top: 20px;
 }
+.Bemvindo{
+  justify-content: center;
+  color: white;
+  padding-left: 480px;
+  padding-bottom: 0px;
+  padding-top: 240px;
+}
+.content{
+  background-color: black;
+}
+.txt2{
+  color: white;
+  padding-left: 300px;
+}
+.txt3{
+  padding-left: 335px;
+}
+.rodape{
+  justify-content: baseline;
+  padding-left: 450px;
+  padding-bottom: 450px;
+  position: relative;
+  padding-top: 550px;
+  padding-bottom: 0px;
+}
