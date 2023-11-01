@@ -623,3 +623,56 @@ a {
   font-weight: bolder;
 }
 
+.card {
+ position: relative;
+ width: 320px;
+ height: 420px;
+ background: #1a3323;
+ border-radius: 20px;
+ overflow: hidden;
+}
+
+.card::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #162b1c;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.card:hover::before{
+  top:-70%;
+  transform: skewY(390deg);
+}
+
+.card::after{
+  content: 'Phillips';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.card .imgbox{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.car .imgbox img{
+  max-width: 100%;
+  transition: 0.5s;
+}
+
+.card:hover .imgbox img{
+  max-width: 50%;
+}
