@@ -487,12 +487,11 @@ a {
 }
 
 .rodape {
-  align-items: center;
-  padding-left: 450px;
-  padding-bottom: 450px;
-  position: relative;
-  padding-top: 590px;
-  padding-bottom: 0px;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   color: rgb(127, 128, 127);
 }
 
@@ -623,56 +622,54 @@ a {
   font-weight: bolder;
 }
 
-.card {
- position: relative;
- width: 320px;
- height: 420px;
- background: #1a3323;
- border-radius: 20px;
- overflow: hidden;
+.product-card {
+  width: 260px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 2px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 140px;
 }
 
-.card::before{
-  content: '';
-  position: absolute;
-  top: -50%;
-  width: 100%;
-  height: 100%;
-  background: #162b1c;
-  transform: skewY(345deg);
-  transition: 0.5s;
+.product-image img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 8px;
 }
 
-.card:hover::before{
-  top:-70%;
-  transform: skewY(390deg);
+.product-details h2 {
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-.card::after{
-  content: 'Phillips';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-weight: 600;
-  font-size: 8em;
-  color: rgba(0, 0, 0, 0.1);
+.product-details p {
+  font-size: 14px;
+  color: #666;
 }
 
-.card .imgbox{
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 20px;
-  z-index: 1;
+.product-details .price {
+  font-size: 20px;
+  color: #f00;
+  /* Cor do preço */
+  margin-top: 10px;
 }
 
-.car .imgbox img{
-  max-width: 100%;
-  transition: 0.5s;
+.buy-button {
+  background-color: #f00;
+  /* Cor do botão */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-.card:hover .imgbox img{
-  max-width: 50%;
+.buy-button:hover {
+  background-color: #c00;
+  /* Cor do botão ao passar o mouse */
 }
